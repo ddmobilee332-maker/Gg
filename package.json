@@ -1,0 +1,15 @@
+{
+  "name": "paow-project",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "โปรเจค เปา สุดเท่",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . เปา --platform=win32 --arch=x64 --overwrite"
+  },
+  "dependencies": {
+    "electron": "^29.0.0",
+    "ytdl-core": "^4.11.5",
+    "play-sound": "^1.1.6"
+  }
+}
